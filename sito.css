@@ -26,6 +26,9 @@
 #bandieraitalia {
   margin-left: 50px;
 }
+#divtop {
+  height: 100px;
+}
 .box {
   border: 1px;
   max-width: 600px;
@@ -33,6 +36,9 @@
   background-color: orange;
   border-radius: 20px;
   text-align: center;
+}
+#divseparatore {
+  height: 10px;
 }
 #divcookie {
   color: white;
@@ -60,7 +66,10 @@
 .pbox {
   padding-bottom: 20px;
 }
-#offertaformativa {
+.divspazio {
+  height: 30px;
+}
+#firstbox {
   margin: auto;
   background-color: hsl(0, 0%, 6%);
   height: auto;
@@ -88,4 +97,39 @@
 #button {
   width: auto;
   margin: 50px;
+}
+#offertaformativa {
+  color: white;
+  background-color: black;
+  height: auto;
+  min-width: 1001px;
+  max-width: 1200px;
+  margin: auto;
+  border: 3px solid white;
+}
+#dipartimenti {
+  height: auto;
+  border: 3px solid white;
+  min-width: 1001px;
+  max-width: 1200px;
+  background-color: hsl(0, 0%, 6%);
+  margin: auto;
+}
+#internodip {
+  width: 1000px;
+  margin: auto;
+  padding-top: 30px;
+}
+.listedip {
+  margin: auto;
+  color: white;
+}
+.scuola {
+  text-align: center;
+  font-size: 24px;
+}
+.lista {
+  type: disc;
+  padding-left: 240px;
+  padding-top: 15px;
 }
