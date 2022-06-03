@@ -82,6 +82,10 @@
 .material-symbols-rounded {
   font-size: 70px !important;
 }
+.info {
+  color: white;
+  font-size: 20px;
+}
 #welcome {
   margin: auto;
   background-color: black;
