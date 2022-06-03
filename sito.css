@@ -79,9 +79,8 @@
   padding: 30px;
   width: 1300px;
 }
-.immagine {
-  max-width: 50px;
-  margin: 6px;
+.material-symbols-rounded {
+  font-size: 70px !important;
 }
 #welcome {
   margin: auto;
@@ -105,10 +104,10 @@
   width: 1300px;
   border: 3px solid white;
 }
-#imuniv{
-  margin-left:250px;
-  width:560px;
-  height:315px;
+#imuniv {
+  margin-left: 40px;
+  width: 560px;
+  height: auto;
 }
 #dipartimenti {
   height: auto;
@@ -154,9 +153,9 @@ footer {
   width: 55px;
   text-align: center;
   padding: 6px;
-  }
-  #toparrow {
-   max-width: 50px;
+}
+#toparrow {
+  max-width: 50px;
 }
 .solidh2 {
   margin: 70px 0px 70px 0px;
@@ -164,5 +163,5 @@ footer {
   padding-left: 20px;
 }
 .nomargin {
-margin:0px;
+  margin: 0px;
 }
