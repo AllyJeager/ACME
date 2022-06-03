@@ -184,3 +184,22 @@ footer {
 .nomargin {
   margin: 0px;
 }
+#durata{
+  margin: auto;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  height: auto;
+  width: 1300px;
+  border: 3px solid white;
+}
+#borse{
+  margin: auto;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  height: auto;
+  width: 1300px;
+  border: 3px solid white;
+}
+
