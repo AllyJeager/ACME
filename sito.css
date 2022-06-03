@@ -105,7 +105,11 @@
   width: 1300px;
   border: 3px solid white;
 }
-
+#imuniv{
+  margin-left:250px;
+  width:560px;
+  height:315px;
+}
 #dipartimenti {
   height: auto;
   border: 3px solid white;
