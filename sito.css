@@ -154,6 +154,9 @@ footer {
   text-align: center;
   font-size: 20px;
   padding: 6px;
+  }
+  #toparrow {
+   max-width: 50px;
 }
 .solidh2 {
   margin: 70px 0px 70px 0px;
