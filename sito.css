@@ -69,6 +69,7 @@
 .divspazio {
   height: 30px;
 }
+@media screen and (max-width: 585px){
 #firstbox {
   margin: auto;
   background-color: hsl(0, 0%, 6%);
@@ -78,6 +79,7 @@
   text-align: center;
   padding: 30px;
   width: 1300px;
+}
 }
 .material-symbols-rounded {
   font-size: 70px !important;
@@ -99,7 +101,6 @@
   width: auto;
   margin: 50px;
 }
-@media screen and (max-width: 585px){
 #offertaformativa {
   margin: auto;
   background-color: black;
@@ -108,7 +109,6 @@
   height: auto;
   width: 1300px;
   border: 3px solid white;
-}
 }
 #imuniv {
   margin-left: 40px;
