@@ -70,14 +70,13 @@
   height: 30px;
 }
 #firstbox {
-  margin: auto;
-  background-color: hsl(0, 0%, 6%);
-  height: auto;
-  border: 3px solid white;
-  color: white;
-  text-align: center;
-  padding: 30px;
-  width: 1300px;
+ background-color: hsl(0, 0%, 6%);
+    border-radius: 20px;
+    height: auto;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
 }
 .material-symbols-rounded {
   font-size: 70px !important;
