@@ -9,8 +9,8 @@
   background-size: 100%;
 }
 #topdiv {
-  border-bottom: 3px solid red;
-  opacity: 0, 3;
+  border-bottom: 3px solid hsl(0, 100%, 70%);
+  opacity: 0.98;
   position: fixed;
   background-color: black;
   width: 100%;
@@ -33,9 +33,10 @@
   border: 1px;
   max-width: 600px;
   margin: auto;
-  background-color: orange;
+  background-color: hsl(0, 100%, 70%);
   border-radius: 20px;
   text-align: center;
+  color: white;
 }
 #divseparatore {
   height: 10px;
@@ -70,10 +71,19 @@
   border: 3px solid white;
   color: white;
   text-align: center;
-  padding: 20px 30px;
+  padding: 30px 30px;
+}
+.cerchio {
+  border: 1px solid white;
+  height: 90px;
+  width: 90px;
+  background-color: hsl(0, 100%, 70%);
+  border-radius: 100%;
+  margin: auto;
 }
 .material-symbols-rounded {
   font-size: 70px !important;
+  padding-top: 10px;
 }
 .info {
   color: white;
@@ -236,3 +246,4 @@ footer {
   height: 70px;
   margin: 0 10px;
 }
+
