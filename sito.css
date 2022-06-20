@@ -244,12 +244,33 @@ footer {
   font-size: 20px;
   padding-bottom: 20px;
 }
+#bottoncinocookie {
+  position: fixed;
+  bottom: 45px;
+  left: 130px;
+  width: 500px;
+  height: 90px;
+  border-radius: 100px;
+}
+#cookie {
+  color: white;
+  font-size: 10px;
+  background-color: hsl(0, 0%, 6%);
+  padding: 15px;
+}
+#perchiudere {
+  font-size: 15px;
+  margin-left: 450px;
+}
+#bottoncino {
+  position: fixed;
+}
 #popup {
   background-color: hsl(0, 100%, 70%);
   height: 100px;
   width: 100px;
   bottom: 10px;
-  left: 20px;
+  left: 10px;
   position: fixed;
   text-align: center;
   border-radius: 90px;
@@ -258,29 +279,4 @@ footer {
   padding: 1px 15px 15px 15px;
   border: 3px solid hsl(0, 100%, 70%);
   z-index: 1;
-}
-
-#cookiebutton {
-  background-color: rgb(179, 247, 232);
-  color: rgb(0, 0, 0);
-  border: 2px solid rgb(64, 151, 147);
-  border-radius: 10px;
-  display: none;
-  bottom: 5px;
-  left: 65px;
-  position: fixed;
-  z-index: 2;
-}
-#divcookie {
-  color: white;
-  font-size: 10px;
-  background-color: black;
-  margin: 2px;
-  width: 200px;
-  padding: 15px;
-  display: none;
-}
-#perchiudere{
-  font-size: 15px;
-  margin-left: 185px;
 }
