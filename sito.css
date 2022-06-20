@@ -86,7 +86,7 @@
   padding-top: 10px;
 }
 .info {
-  color: white;
+  color: hsl(0, 100%, 70%);
   font-size: 20px;
 }
 #welcome {
@@ -122,30 +122,32 @@
   padding: 20px;
   text-align: center;
   margin: 20px 0;
+  border-radius: 20px;
+  border: 3px solid white;
 }
 
 #bgcolor1 {
-  background-color: hsl(0, 100%, 59%);
+  background-color: hsl(0, 100%, 70%);
 }
 
 #bgcolor2 {
-  background-color: hsl(219, 100%, 59%);
+  background-color: hsl(190, 86%, 44%);
 }
 
 #bgcolor3 {
-  background-color: hsl(114, 42%, 39%);
+  background-color: hsl(25, 88%, 48%);
 }
 
 .color1 {
-  color: hsl(0, 100%, 59%);
+  color: hsl(0, 100%, 70%);
 }
 
 .color2 {
-  color: hsl(219, 100%, 59%);
+  color: hsl(190, 86%, 44%);
 }
 
 .color3 {
-  color: hsl(114, 42%, 39%);
+  color: hsl(25, 88%, 48%);
 }
 
 .dipartimentoin {
@@ -153,20 +155,12 @@
   min-height: 100%;
   text-align: center;
   background-color: hsl(0, 0%, 10%);
-}
-
-ul {
-  margin: 0 auto;
-  max-width: fit-content;
-  font-size: 14px;
-  padding-left: 3px !important;
-  max-width: 94%;
-  list-style-type: square;
+  border-radius: 20px;
 }
 #listabot {
   type: disc;
-  padding-left: 240px;
-  padding-top: 15px;
+  padding-left: 40px;
+  padding-top: 7px;
 }
 footer {
   background-color: black;
@@ -246,4 +240,43 @@ footer {
   height: 70px;
   margin: 0 10px;
 }
+.pcontatti {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+#popup {
+  background-color: hsl(0, 100%, 70%);
+  height: 100px;
+  width: 100px;
+  bottom: 10px;
+  left: 20px;
+  position: fixed;
+  text-align: center;
+  border-radius: 90px;
+  color: white;
+  display: block;
+  padding: 1px 15px 15px 15px;
+  border: 3px solid hsl(0, 100%, 70%);
+  z-index: 1;
+}
 
+#cookiebutton {
+  background-color: rgb(179, 247, 232);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(64, 151, 147);
+  border-radius: 10px;
+  display: none;
+  bottom: 5px;
+  left: 65px;
+  position: fixed;
+  z-index: 2;
+}
+#divcookie {
+  color: white;
+  font-size: 10px;
+  background-color: black;
+  margin: 2px solid white;
+  width: 200px;
+  padding: 15px;
+  display: none;
+}
