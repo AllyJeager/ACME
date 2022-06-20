@@ -23,12 +23,6 @@
 <body id="font" class="background">
 
   <div id="topdiv">
-    <div>
-
-      <img id="bandieraitalia" class="bandiere" alt="bandiera" src="immagini/bandiera-italiana.jpeg">
-      <img class="bandiere" alt="bandiera" src="immagini/bandiera-inglese.jpeg">
-      <img class="bandiere" alt="bandiera" src="immagini/bandiera-cinese.jpeg">
-    </div>
     <div id="acme">
       <h2>
         ACME </h2>
@@ -196,6 +190,21 @@
   </div>
 
   <div class="divspazio"></div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4 col-md-4 col-lg-4" id="testimonial-container">
+        <p class="testimonial">
+          "Non sprecare il tuo tempo.
+
+          Crea, agisci, prendi posto ovunque tu sia
+
+          e diventa qualcuno"
+
+          Teddy Roosevelt
+        </p>
+      </div>
+    </div>
+  </div>
 
   <div class="divspazio"></div>
   <div id="durata" class="container mt-5">
@@ -241,38 +250,20 @@
   <div class="divspazio"></div>
   <div id="contattibox" class="container mt-5">
     <div class="row">
-      <div style="text-align:center;">
-        <h1>
-          CONTATTI
-        </h1>
-      </div>
-      <div class="col-sm-12 col-md-4 col-lg-4">
-        <div style="background-color: hsl(0, 100%, 70%);border-radius:50px;width:auto;">
-          <span class="material-symbols-rounded">
-            map
-          </span>
-          <p class="pcontatti"> Novara, via Costantino Porta 25</p>
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="faq active">
+          <h3 class="faq-title">
+            CONTATTI
+          </h3>
+          <div class="faq-text">
+            <p> <span class="spancontatti">Mail:</span> accademia@acmenovara.it</p>
+            <p> <span class="spancontatti">Numero Segreteria:</span> +390321627101</p>
+          </div>
+          <button class="faq-toggle">
+          </button>
         </div>
       </div>
-      <div class="col-sm-12 col-md-4 col-lg-4">
-        <div style="background-color: hsl(0, 100%, 70%);border-radius:50px;width:auto;">
-          <span class="material-symbols-rounded">
-            mail
-          </span>
-          <p class="pcontatti">accademia@acmenovara.it</p>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-4 col-lg-4">
-        <div style="background-color: hsl(0, 100%, 70%);border-radius:50px;width:auto;">
-          <span class="material-symbols-rounded">
-            call
-          </span>
-          <p class="pcontatti">+390321627101</p>
-        </div>
-      </div>
-
     </div>
-  </div>
   </div>
 
   <div class="divspazio"></div>
@@ -304,7 +295,7 @@
   </div>
 
   <div id="bottoncinocookie">
-    <div id="cookie" class="col-sm-4 col-md-4 col-lg-12">
+    <div id="cookie" class="col-sm- col-md-4 col-lg-12">
       <b id="perchiudere" onclick="hideCookie()">X</b>
       <h6>
         QUESTO SITO WEB UTILIZZA COOKIE</h6>
@@ -333,6 +324,34 @@
       let cookie = document.querySelector('#cookie');
       cookie.style = "display:none;";
     }
+    const testimonialsContainer = document.querySelector('.testimonials-container')
+    const testimonial = document.querySelector('.testimonial')
+    const testimonials = [{
+        text: "&#8220; Lo studio: strumento per costruire la propria libertà,educazione dell'ingegno e della creatività al lavoro,ma soprattutto occasione privilegiata di capire la vita &#8221; <br> Enrico Palandri"
+      },
+      {
+        text: "&#8220; L'obiettivo non è vivere per sempre.L'obiettivo è creare qualcosa che vivrà per sempre &#8221; Chuck Palahniuk"
+      },
+    ]
+    let idx = 1
+
+    function updateTestimonial() {
+      const {
+        text
+      } = testimonials[idx]
+      testimonial.innerHTML = text
+      idx++
+      if (idx > testimonials.length - 1) {
+        idx = 0
+      }
+    }
+    setInterval(updateTestimonial, 6000)
+    const toggles = document.querySelectorAll('.faq-toggle')
+    toggles.forEach(toggle => {
+      toggle.addEventListener('click', () => {
+        toggle.parentNode.classList.toggle('active')
+      })
+    })
   </script>
 
 </body>
