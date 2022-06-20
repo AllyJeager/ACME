@@ -304,12 +304,12 @@
   </div>
 
   <div id="popup">
-    <span onclick="showCookie()" class="material-symbols-rounded">
+    <span onclick="showCookie()" id="cookie" class="material-symbols-rounded">
       cookie
     </span>
   </div>
   <div id="divcookie">
-    <b onclick="hideCookie()"> - </b>
+    <b onclick="hideCookie()" id="perchiudere"> - </b>
     QUESTO SITO WEB UTILIZZA COOKIE<br><br>
     Questo sito web utilizza i cookie per migliorare la tua esperienza di navigazione.<br>
     Utilizzando il nostro sito web acconsenti a tutti i cookie in conformità con la nostra policy per i cookie.
@@ -326,7 +326,7 @@
     }
 
     function hideCookie() {
-      let cookie = document.querySelector('#divcookie');
+      let cookie = document.querySelector('#cookie');
       cookie.style = "display:none;";
     }
   </script>
