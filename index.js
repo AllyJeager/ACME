@@ -1,7 +1,9 @@
-  function scrollToTop() {
+  //scrolltop
+
+function scrollToTop() {
       window.scrollTo(0, 0);
     }
-
+//cookie
     function showCookie() {
       let cookie = document.querySelector('#cookie');
       cookie.style = "display:block;";
@@ -11,6 +13,7 @@
       let cookie = document.querySelector('#cookie');
       cookie.style = "display:none;";
     }
+//citazioni
     const testimonialsContainer = document.querySelector('.testimonials-container')
     const testimonial = document.querySelector('.testimonial')
     const testimonials = [{
@@ -33,6 +36,8 @@
       }
     }
     setInterval(updateTestimonial, 6000)
+
+//contatti
     const toggles = document.querySelectorAll('.faq-toggle')
     toggles.forEach(toggle => {
       toggle.addEventListener('click', () => {
