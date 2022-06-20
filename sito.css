@@ -14,7 +14,7 @@
   position: fixed;
   background-color: black;
   width: 100%;
-  height: 62px;
+  height: 80px;
   margin: 0px;
 }
 .bandiere {
@@ -51,7 +51,7 @@
 }
 #acme {
   color: white;
-  margin-top: -55px;
+  margin: auto;
   color: white;
   text-align: center;
 }
@@ -215,13 +215,7 @@ footer {
   border: 3px solid white;
 }
 #contattibox {
-  background-color: hsl(0, 0%, 6%);
-  border-radius: 20px;
-  padding: 30px;
-  color: white;
-  height: auto;
-  border: 3px solid white;
-  text-align: center;
+ 
 }
 .infobot {
   background-color: hsl(0, 100%, 70%);
@@ -239,10 +233,6 @@ footer {
   width: 70px;
   height: 70px;
   margin: 0 10px;
-}
-.pcontatti {
-  font-size: 20px;
-  padding-bottom: 20px;
 }
 #bottoncinocookie {
   position: fixed;
@@ -280,4 +270,108 @@ footer {
   padding: 1px 15px 15px 15px;
   border: 3px solid hsl(0, 100%, 70%);
   z-index: 1;
+}
+
+#testimonial-container {
+  background-color: #e89a46;
+  color:white;
+  border-radius: 15px;
+  margin: auto;
+  width: auto;
+  padding: 20px;
+  height: auto;
+  border: 3px solid white;
+}
+
+.testimonial {
+  text-align: center;
+  font-size:30px;
+}
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-container {
+    padding: 20px 30px;
+  }
+}
+
+.faq {
+  background-color: hsl(0, 0%, 6%);
+  border: 3px solid white;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.faq.active {
+  background-color:hsl(0, 0%, 6%);
+
+}
+.faq-title {
+  margin: 0 150px 0 0;
+  color:white;
+}
+
+.faq-text {
+  display: none;
+  margin: 37px 0 0;
+  color:white
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 20%;
+  cursor: pointer;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 8px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.faq-toggle:focus {
+  outline: 0;
+}
+
+.faq-toggle .fa-times {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  color: #fff;
+  display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+
+.faq.active .faq-toggle {
+  background-color: hsl(0, 100%, 70%);
+}
+#materialcontatti{
+  font-size:10px;!important
+  float:left;
+}
+.spancontatti{
+  color: hsl(0,100%,70%);
+  font-size:20px;
+  font-style:bold;
 }
