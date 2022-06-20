@@ -303,11 +303,10 @@
     <img id="toparrow" alt="scrolltoparrow" src="https://icon-library.com/images/top-arrow-icon/top-arrow-icon-0.jpg">
   </div>
 
-  <div onclick="showCookie()" id="popup">
-    <span class="material-symbols-rounded">
+  <div id="popup">
+    <span onclick="showCookie()" class="material-symbols-rounded">
       cookie
     </span>
-    <div id="cookiebutton"></div>
   </div>
   <div id="divcookie">
     <b onclick="hideCookie()"> - </b>
@@ -322,7 +321,7 @@
     }
 
     function showCookie() {
-      let cookie = document.querySelector('#popup');
+      let cookie = document.querySelector('#cookie');
       cookie.style = "display:block;";
     }
 
