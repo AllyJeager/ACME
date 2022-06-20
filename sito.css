@@ -246,12 +246,13 @@ footer {
 }
 #bottoncinocookie {
   position: fixed;
-  bottom: 45px;
+  bottom: 125px;
   left: 130px;
-  width: 500px;
-  height: 90px;
+  width: 250px;
+  height: 60px;
   border-radius: 100px;
 }
+
 #cookie {
   color: white;
   font-size: 10px;
@@ -260,7 +261,7 @@ footer {
 }
 #perchiudere {
   font-size: 15px;
-  margin-left: 450px;
+  margin-left: 200px;
 }
 #bottoncino {
   position: fixed;
