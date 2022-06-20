@@ -275,8 +275,12 @@ footer {
   color: white;
   font-size: 10px;
   background-color: black;
-  margin: 2px solid white;
+  margin: 2px;
   width: 200px;
   padding: 15px;
   display: none;
+}
+#perchiudere{
+  font-size: 15px;
+  margin-left: 185px;
 }
