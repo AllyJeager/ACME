@@ -157,7 +157,6 @@
   text-align: center;
   background-color: hsl(0, 0%, 10%);
   border-radius: 20px;
-  margin:5px;
 }
 #listabot {
   type: disc;
