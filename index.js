@@ -15,8 +15,8 @@ function scrollToTop() {
     }
 //citazioni
  const TestimonialsContainer = document.querySelector('.testimonial-container')
-    const quotes = document.querySelector('.testimonial')
-    const quotes = [{
+    const testimonials = document.querySelector('.testimonial')
+    const testimonials = [{
         text: "&#8220; Lo studio: strumento per costruire la propria libertà,educazione dell'ingegno e della creatività al lavoro,ma soprattutto occasione privilegiata di capire la vita &#8221; <br> Enrico Palandri"
       },
       {
