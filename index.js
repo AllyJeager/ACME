@@ -28,7 +28,7 @@ function scrollToTop() {
     function updateTestimonials() {
       const {
         text
-      } = quotes [idx]
+      } = testimonials [idx]
       testimonials.innerHTML = text
       idx++
       if (idx > testimonials.length - 1) {
