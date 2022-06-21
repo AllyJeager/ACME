@@ -269,7 +269,7 @@ footer {
   z-index:1;
 }
 
-#quote-container {
+#testimonial-container {
   background-color: #e89a46;
   color:white;
   border-radius: 15px;
@@ -280,7 +280,7 @@ footer {
   border: 3px solid white;
 }
 
-.quote {
+.testimonial {
   text-align: center;
   font-size:30px;
 }
