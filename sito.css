@@ -356,10 +356,6 @@ footer {
 .faq.active .faq-toggle {
   background-color: hsl(0, 100%, 70%);
 }
-#materialcontatti{
-  font-size:10px;!important
-  float:left;
-}
 .spancontatti{
   color: hsl(0,100%,70%);
   font-size:20px;
