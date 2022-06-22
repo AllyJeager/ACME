@@ -225,7 +225,7 @@ footer {
   height: 70px;
   margin: 0 10px;
 }
-@media screen and (max-width: 576px){
+@media screen and (min-width: 576px){
   #popup{
     height:50px;
     width:50px;
