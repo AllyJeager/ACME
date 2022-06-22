@@ -233,7 +233,7 @@ footer {
   height: 60px;
   border-radius: 100px;
   cursor:pointer;
-  border-radius:20px;
+  border-radius:20px !important;
 }
 
 #innercookie {
