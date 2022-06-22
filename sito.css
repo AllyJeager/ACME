@@ -229,6 +229,9 @@ footer {
   #popup{
     height:50px;
     width:50px;
+    bottom:5px;
+    left:5px;
+    position:fixed;
     
     }
 }
