@@ -233,7 +233,7 @@ footer {
   height: 60px;
   border-radius: 100px;
   cursor:pointer;
-  display:block;
+  display:none;
 }
 
 #innercookie {
@@ -257,7 +257,7 @@ footer {
   border-radius: 90px;
   color: white;
   cursor:pointer;
-  display:none;
+  display:block;
   }
 #iconcookie{
   font-size:60px !important;
