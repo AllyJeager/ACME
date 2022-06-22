@@ -225,13 +225,18 @@ footer {
   height: 70px;
   margin: 0 10px;
 }
+@media (max-width: 768px){
+  #cookiewindow{
+width: 150px;
+height: 60px;}
+
+}
 #cookiewindow {
   position: fixed;
   bottom: 125px;
   left: 100px;
   width: 250px;
   height: 60px;
-  border-radius: 100px;
   cursor:pointer;
 }
 
