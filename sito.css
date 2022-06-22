@@ -225,51 +225,42 @@ footer {
   height: 70px;
   margin: 0 10px;
 }
-@media screen and (min-width: 576px){
-  #popup{
-    height:50px;
-    width:50px;
-    bottom:5px;
-    left:5px;
-    position:fixed;
-    
-    }
-}
-#bottoncinocookie {
+#cookiewindow {
   position: fixed;
   bottom: 125px;
-  left: 120px;
+  left: 100px;
   width: 250px;
   height: 60px;
   border-radius: 100px;
 }
 
-#cookie {
+#innercookie {
   color: white;
   font-size: 10px;
   background-color: hsl(0, 0%, 6%);
   padding: 15px;
-  cursor:pointer;
 }
 #perchiudere {
   font-size: 15px;
-  margin-left: 200px;
+  margin-left: 210px;
 }
-#popup {
+#bottoncino {
   background-color: hsl(0, 100%, 70%);
-  height: 100px;
-  width: 100px;
+  height:70px;
+  width: 70px;
   bottom: 10px;
-  left: 10px;
+  left: 20px;
   position: fixed;
   text-align: center;
   border-radius: 90px;
   color: white;
-  padding:15px;
-  border: 3px solid hsl(0, 100%, 70%);
-  cursor:pointer;
+  
 }
-
+#iconcookie{
+  font-size:60px !important;
+  margin:auto;
+  padding-top:3.7px;
+ }
 #testimonial-container {
   background-color: #e89a46;
   color:white;
