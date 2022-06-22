@@ -42,14 +42,6 @@
 #divseparatore {
   height: 10px;
 }
-#divcookie {
-  color: white;
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  width: 100px;
-  text-align: center;
-}
 #acme {
   color: white;
   margin: auto;
@@ -216,9 +208,6 @@ footer {
   height: auto;
   border: 3px solid white;
 }
-#contattibox {
- 
-}
 .infobot {
   background-color: hsl(0, 100%, 70%);
   color: white;
@@ -235,6 +224,13 @@ footer {
   width: 70px;
   height: 70px;
   margin: 0 10px;
+}
+@media screen and (max-width: 576px){
+  #popup{
+    height:50px;
+    width:50px;
+    
+    }
 }
 #bottoncinocookie {
   position: fixed;
