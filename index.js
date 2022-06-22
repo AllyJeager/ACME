@@ -41,7 +41,7 @@ function updateTestimonial() {
   }
 }
 
-setInterval(updateTestimonial, 3500)
+setInterval(updateTestimonial, 6000)
 
 //contatti
     const toggles = document.querySelectorAll('.faq-toggle')
