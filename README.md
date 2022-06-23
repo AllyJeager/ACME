@@ -1,6 +1,6 @@
 
-# ACME-SITO-ESAME
-Costruzione sito ACME per progetto esame del corso di Web Design 
+# PROGETTO ESAME
+Costruzione sito ACME come progetto d'esame per il corso di Web Design, utilizzando le competenze acquisite su HTML, CSS e Javascript.
 
 Il repository è pubblicato a questo indirizzo: https://progettoesame.netlify.app/
 Ogni modifica viene controllata appena inserita in repository tramite il [seguente workflow] (https://github.com/AllyJeager/ACME/blob/main/.github/workflows/main.yml)
