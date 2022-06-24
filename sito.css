@@ -1,6 +1,9 @@
 #font {
   font-family: Futura;
-  font-display: swap
+  font-display: swap;
+}
+@font-face{
+  font-family: Helvetica;
 }
 .background {
   margin: 0px;
