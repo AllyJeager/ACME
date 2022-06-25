@@ -10,7 +10,8 @@
   background-image: url("immagini/background.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 #topdiv {
   border-bottom: 3px solid hsl(0, 100%, 70%);
